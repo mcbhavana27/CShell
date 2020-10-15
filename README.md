@@ -6,24 +6,21 @@ For Running
 	run 'make'
 	execute by using './shell'
 	run 'quit' to exit
+Features:
+Foreground processes
+Background processes
+ls
+cd
+pinfo
+pwd
+input/output redirection
+piping
+kjob command
+overkill command
+jobs command
+fjob command
+bjob command
+ctrl c
+ctrl d
+ctrl z
 
-
-Files:
-main.c: main file which runs all the functions.
-printcmdline.c : prints the command line of the command promt
-ls.c : executes the ls function
-bg.c : implements the background processes and other system commands
-pinfo.c : implements pinfo command
-history.c: implements history command
-cd.c : implements change directory function
-make file: which runs all files together
-shell.h : contains all the headers and functions to use.
-README.md: contains the info of this file.
-env.c:implements the setenv and unsetenv functions
-bg_job.c: implements the bg job fun
-overkill.c: kills all the functions at a time
-fg.c: makes a bg proccess to run in foreground
-jobs.c: prints all the background implemented jobs
-kjob.c: kills a background running job
-redirection.c: implements redirection
-pipe.c: implements piping
