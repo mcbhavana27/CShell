@@ -8,9 +8,7 @@ For Running
 	run 'quit' to exit
 	
 Features:
-
 Foreground processes
-
 Background processes
 ls
 cd
