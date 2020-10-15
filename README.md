@@ -6,8 +6,11 @@ For Running
 	run 'make'
 	execute by using './shell'
 	run 'quit' to exit
+	
 Features:
+
 Foreground processes
+
 Background processes
 ls
 cd
