@@ -8,8 +8,7 @@ For Running
 	run 'quit' to exit
 
 FUNCTIONS
-  
-    cd: chanegs the directory
+   cd: chanegs the directory
     ls command : 
     pinfo command:
     Input/Output redirection:  	
@@ -19,14 +18,14 @@ FUNCTIONS
     	One or more commands can be piped
    	 Pipes and i/o redirection can be done together
     
-    setenv var value : used to create environment variable var
-    unsetenv var : shell destroys the environment variable var.
-    jobs :  prints a list of all background processes
-    kjob : takes the job id of a running job and sends a signal value to that process.
-    fg : brings a running or a stopped background job with given job number to foreground.
-    bg : changes a stopped background job to a running background job.
-    overkill : kills all background process at once.
-    CTRL-Z : It changes the status of currently running job to stop, and pushes it in background process.
-    CTRL-C : It should cause a SIGINT signal to be sent to the current foreground job of your shell. If there is no foreground job, then the signal doesn't have any effect.
+   setenv var value : used to create environment variable var
+   unsetenv var : shell destroys the environment variable var.
+   jobs :  prints a list of all background processes
+   kjob : takes the job id of a running job and sends a signal value to that process.
+   fg : brings a running or a stopped background job with given job number to foreground.
+   bg : changes a stopped background job to a running background job.
+   overkill : kills all background process at once.
+   CTRL-Z : It changes the status of currently running job to stop, and pushes it in background process.
+   CTRL-C : It should cause a SIGINT signal to be sent to the current foreground job of your shell. If there is no foreground job, then the signal doesn't have any effect.
     
 
