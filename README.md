@@ -20,6 +20,7 @@ overkill command
 jobs command
 fjob command
 bjob command
+Signals:
 ctrl c
 ctrl d
 ctrl z
